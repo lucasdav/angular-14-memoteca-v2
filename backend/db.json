@@ -4,43 +4,50 @@
       "id": 1,
       "conteudo": "We are the champions my friends!!!",
       "autoria": "Queen",
-      "modelo": "modelo1"
+      "modelo": "modelo1",
+      "favorito": true
     },
     {
       "id": 2,
       "conteudo": "Na minha máquina funciona!",
       "autoria": "Dev da madrugada",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": true
     },
     {
       "id": 3,
       "conteudo": "Continue a codar... continue a codar...",
       "autoria": "Dory programadora",
-      "modelo": "modelo3"
+      "modelo": "modelo3",
+      "favorito": false
     },
     {
+      "id": 4,
       "conteudo": "Testando função de editar",
       "autoria": "Angular ",
       "modelo": "modelo2",
-      "id": 4
+      "favorito": false
     },
     {
+      "id": 5,
       "conteudo": "teste",
       "autoria": "aaa",
       "modelo": "modelo1",
-      "id": 5
+      "favorito": false
     },
     {
+      "id": 6,
       "conteudo": "teste2",
       "autoria": "aaaa33",
       "modelo": "modelo1",
-      "id": 6
+      "favorito": false
     },
     {
+      "id": 7,
       "conteudo": "teste4",
       "autoria": "ffff",
       "modelo": "modelo1",
-      "id": 7
+      "favorito": false
     }
   ]
 }
