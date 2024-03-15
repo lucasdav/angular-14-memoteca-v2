@@ -16,6 +16,7 @@ export class ListarPensamentoComponent implements OnInit {
   filtro: string = '';
   favoritos: boolean = false;
   listaFavoritos: Pensamento[] = [];
+  titulo: string= 'Meu Mural';
 
   constructor(
     private router: Router,
@@ -51,12 +52,14 @@ export class ListarPensamentoComponent implements OnInit {
     this.favoritos = false;
     this.paginaAtual = 1;
 
+    //para recarregar um componente
     this.router.routeReuseStrategy.shouldReuseRoute = () => false;
     this.router.onSameUrlNavigation = 'reload';
     this.router.navigate([this.router.url]);
   }
 
   listarFavoritos() {
+    this.titulo = 'Meus favoritos';
     this.favoritos = true;
     this.haMaisPensamentos = true;
     this.paginaAtual = 1;
